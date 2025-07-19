@@ -41,7 +41,7 @@ const About = () => (
         <div className="relative flex justify-center">
           <div className="bg-gradient-to-br from-red-500 to-gray-800 p-1 rounded-2xl">
             <img
-              src="/gallery/about.jpg"
+              src={import.meta.env.BASE_URL + "gallery/about.jpg"}
               alt="Nam HairSalon"
               className="rounded-2xl object-cover w-full h-96"
             />

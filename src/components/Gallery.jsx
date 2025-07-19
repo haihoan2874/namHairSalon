@@ -2,12 +2,12 @@
 import React, { useState } from "react";
 
 const images = [
-  "/gallery/1.png",
-  "/gallery/2.png",
-  "/gallery/3.png",
-  "/gallery/4.png",
-  "/gallery/5.png",
-  "/gallery/6.png",
+  import.meta.env.BASE_URL + "gallery/1.png",
+  import.meta.env.BASE_URL + "gallery/2.png",
+  import.meta.env.BASE_URL + "gallery/3.png",
+  import.meta.env.BASE_URL + "gallery/4.png",
+  import.meta.env.BASE_URL + "gallery/5.png",
+  import.meta.env.BASE_URL + "gallery/6.png",
 ];
 
 const Gallery = () => {
