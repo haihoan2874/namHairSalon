@@ -13,11 +13,7 @@ const Contact = () => (
         <h3 className="text-3xl font-bold mb-4">
           Navštivte nás pro nový svěží vzhled!
         </h3>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-6 text-xl">
-          <div>
-            <span className="font-semibold">Otevírací doba:</span> 09:00 - 18:00
-          </div>
-          <span className="hidden md:inline-block text-2xl">|</span>
+        <div className="flex flex-col md:flex-row justify-center items-center gap-6 text-xl mb-6">
           <div>
             <span className="font-semibold">Místo:</span> Od permon dlouhá třída
             1228,
@@ -30,6 +26,27 @@ const Contact = () => (
             <a href="tel:776714838" className="text-red-600 hover:underline">
               776714838
             </a>
+          </div>
+        </div>
+
+        {/* Otevírací doba - Chi tiết */}
+        <div className="bg-gray-50 rounded-xl p-6 max-w-md mx-auto">
+          <h4 className="text-xl font-bold text-gray-800 mb-4">
+            Otevírací doba
+          </h4>
+          <div className="space-y-2 text-lg">
+            <div className="flex justify-between">
+              <span className="font-medium">Po-pá:</span>
+              <span className="text-gray-700">09:00 - 18:00</span>
+            </div>
+            <div className="flex justify-between">
+              <span className="font-medium">Sobota:</span>
+              <span className="text-gray-700">09:00 - 12:00</span>
+            </div>
+            <div className="flex justify-between">
+              <span className="font-medium">Ne:</span>
+              <span className="text-red-600 font-semibold">zavřeno</span>
+            </div>
           </div>
         </div>
       </div>

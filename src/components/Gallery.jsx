@@ -8,6 +8,9 @@ const images = [
   import.meta.env.BASE_URL + "gallery/4.png",
   import.meta.env.BASE_URL + "gallery/5.png",
   import.meta.env.BASE_URL + "gallery/6.png",
+  import.meta.env.BASE_URL + "gallery/7.png",
+  import.meta.env.BASE_URL + "gallery/8.png",
+  import.meta.env.BASE_URL + "gallery/9.png",
 ];
 
 const Gallery = () => {
